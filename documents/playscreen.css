@@ -1,0 +1,110 @@
+#playscreen {
+  width: 300px;
+  height: 670px;
+  background-color: white;
+  border-radius: 30px;
+  position: relative;
+}
+
+.singer__photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.singer__photo img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  box-shadow: 1px 5px 10px rgb(249, 185, 162);
+}
+.singer__title {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.singer__type {
+  text-align: center;
+  font-size: 15px;
+  color: var(--color);
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.button {
+  width: 300px;
+  margin-top: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button__shuffle {
+  width: 100px;
+  height: 40px;
+  background-color: #333;
+  color: white;
+  border-radius: 30px;
+  font-size: 15px;
+  text-align: center;
+  line-height: 40px;
+}
+.button__likes {
+  width: 100px;
+  height: 40px;
+  background-color: white;
+  box-shadow: 5px 5px 15px rgb(237, 237, 237);
+  color: var(--color);
+  border-radius: 30px;
+  font-size: 15px;
+  text-align: center;
+  line-height: 40px;
+  margin-left: 20px;
+}
+.button__likes i {
+  color: tomato;
+}
+
+.Streaming {
+  position: absolute;
+  width: 280px;
+  height: 60px;
+  background-color: #333;
+  border-radius: 30px;
+  text-align: center;
+  line-height: 40px;
+  top: 600px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.streaming__inform {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  line-height: 20px;
+}
+
+.streaming__singer {
+  font-size: 13px;
+  color: gray;
+  margin-left: 10px;
+}
+.streaming__song {
+  font-size: 14px;
+  color: white;
+  margin-left: -10px;
+}
+
+.streaming__button {
+  color: white;
+  margin-right: 20px;
+}
+
+.streaming__button i {
+  margin-right: 10px;
+}
